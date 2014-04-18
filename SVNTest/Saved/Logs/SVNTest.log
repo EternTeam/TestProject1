@@ -1,0 +1,309 @@
+Log file open, 04/17/14 23:36:38
+LogInit:Display: Running engine for game: SVNTest
+LogInit: Version: 4.0.2-2034640+++depot+UE4-Releases+4.0
+LogInit: Compiled (64-bit): Mar 27 2014 09:55:26
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.0
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.0/Engine/Binaries/Win64/
+[2014.04.18-04.36.38:562][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.04.18-04.36.38:587][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.04.18-04.36.38:593][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.04.18-04.36.38:599][  0]LogInit: Object subsystem initialized
+[2014.04.18-04.36.38:600][  0]LogInit: Selected Device Profile: [Windows]
+[2014.04.18-04.36.38:600][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.04.18-04.36.38:604][  0]LogInit: Computer: BREN-GAMING-PC
+[2014.04.18-04.36.38:604][  0]LogInit: User: BrenGaming
+[2014.04.18-04.36.38:605][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.04.18-04.36.38:605][  0]LogInit: High frequency timer resolution =3.312871 MHz
+[2014.04.18-04.36.38:605][  0]LogInit: Memory total: Physical=8.0GB (8GB approx) Pagefile=8184.0GB Virtual=8192.0GB
+[2014.04.18-04.36.38:647][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6670 (Feature Level 11_0)
+[2014.04.18-04.36.38:647][  0]LogD3D11RHI: Adapter has 2035MB of dedicated video memory, 0MB of dedicated system memory, and 3830MB of shared system memory
+[2014.04.18-04.36.38:652][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.04.18-04.36.38:660][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.04.18-04.36.38:740][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.18-04.36.38:758][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.04.18-04.36.38:791][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.04.18-04.36.39:868][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.04.18-04.36.39:941][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.04.18-04.36.39:967][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.04.18-04.36.40:033][  0]LogDerivedDataCache: Loaded boot cache 0.07s 37MB C:/ProgramData/Epic/Engine/DerivedDataCache/Boot.ddc.
+[2014.04.18-04.36.40:033][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/ProgramData/Epic/Engine/DerivedDataCache/Boot.ddc
+[2014.04.18-04.36.40:033][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.04.18-04.36.40:033][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.04.18-04.36.40:038][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.04.18-04.36.40:049][  0]LogDerivedDataCache: Using Local data cache path C:/ProgramData/Epic/Engine/DerivedDataCache: Writable
+[2014.04.18-04.36.40:112][  0]LogModuleManager:Warning: Found module file ../../../Engine/Plugins/Experimental/SlateComponentWrappers/Binaries/Win64/UE4Editor-SlateComponentWrapperEditor.dll (version 1 0 0 44392), but it was incompatible with the current engine version (4 0 0 0). This is likely a stale module that must be recompiled.
+[2014.04.18-04.36.40:113][  0]LogModuleManager:Warning: Found module file ../../../Engine/Plugins/Experimental/SlateComponentWrappers/Binaries/Win64/UE4Editor-SlateComponentWrapperRuntime.dll (version 1 0 0 44392), but it was incompatible with the current engine version (4 0 0 0). This is likely a stale module that must be recompiled.
+[2014.04.18-04.36.40:216][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.04.18-04.36.40:216][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.04.18-04.36.40:408][  0]LogEnum:Warning: Enum Text 1 for Enum ECustomDepth failed to resolve to any value
+[2014.04.18-04.36.40:408][  0]LogEnum:Warning: Enum Text 3 for Enum EEarlyZPass failed to resolve to any value
+[2014.04.18-04.36.40:408][  0]LogEnum:Warning: Enum Text 1 for Enum EClearSceneOptions failed to resolve to any value
+[2014.04.18-04.36.40:408][  0]LogEnum:Warning: Enum Text 4 for Enum ECompositingSampleCount failed to resolve to any value
+[2014.04.18-04.36.41:043][  0]Warning: Invalid UDP Messaging UnicastEndpoint '' - binding to all local network adapters instead
+[2014.04.18-04.36.41:043][  0]Warning: Invalid UDP Messaging MulticastEndpoint '' - using default endpoint '230.0.0.1:6666' instead
+[2014.04.18-04.36.41:066][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.04.18-04.36.41:217][  0]SourceControl: Info Source control is disabled
+[2014.04.18-04.36.41:217][  0]SourceControl: Info Source control is disabled
+[2014.04.18-04.36.41:221][  0]SourceControl: Info Source control is disabled
+[2014.04.18-04.36.41:307][  0]BlueprintLog: New page: Editor Load
+[2014.04.18-04.36.41:343][  0]LogObj: 18309 objects as part of root set at end of initial load.
+[2014.04.18-04.36.41:343][  0]LogUObjectAllocator: 3622472 out of 0 bytes used by permanent object pool.
+[2014.04.18-04.36.41:599][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.18-04.36.41:599][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.18-04.36.41:599][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.18-04.36.41:599][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.18-04.36.41:599][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.18-04.36.41:599][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (C:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.18-04.36.41:599][  0]LogEngine: Initializing Engine...
+[2014.04.18-04.36.41:699][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2014.04.18-04.36.41:709][  0]LogInit: FAudioDevice initialized.
+[2014.04.18-04.36.41:727][  0]LogDerivedDataCache: Saved boot cache 0.02s 37MB C:/ProgramData/Epic/Engine/DerivedDataCache/Boot.ddc.
+[2014.04.18-04.36.41:734][  0]LogInit: Texture streaming: Enabled
+[2014.04.18-04.36.41:747][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.04.18-04.36.41:747][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.0.2-2034640+++depot+UE4-Releases+4.0
+[2014.04.18-04.36.41:749][  0]LogAnalytics: SetUserId 53dbdd68bcf93f14db7b907e92c5e182
+[2014.04.18-04.36.41:749][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.04.18-04.36.41:761][  0]LogInit: Transaction tracking system initialized
+[2014.04.18-04.36.41:844][  0]LogAssetRegistry: FAssetRegistry took 0.009352 seconds to start up
+[2014.04.18-04.36.41:963][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.04.18-04.36.41:966][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.04.18-04.36.42:026][  0]LogConsoleResponse:Display: 
+[2014.04.18-04.36.42:210][  0]SourceControl: Info Source control is disabled
+[2014.04.18-04.36.42:210][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.04.18-04.36.42:210][  0]LightingResults: New page: Lighting Build
+[2014.04.18-04.36.42:215][  0]MapCheck: New page: Map Check
+[2014.04.18-04.36.42:215][  0]LightingResults: New page: Lighting Build
+[2014.04.18-04.36.42:227][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018B7F560
+[2014.04.18-04.36.42:841][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.04.18-04.36.42:841][  0]Cmd: MAP CHECKDEP
+[2014.04.18-04.36.42:841][  0]MapCheck: New page: Example_Map - Apr 17, 2014, 6:36:42 PM
+[2014.04.18-04.36.42:888][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [46.386ms] ==========
+[2014.04.18-04.36.42:888][  0]LogFileHelpers: Loading map 'Example_Map' took 0.678
+[2014.04.18-04.36.43:009][  0]LogCollectionManager: Loaded 0 collections in 0.000791 seconds
+[2014.04.18-04.36.43:123][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.04.18-04.36.43:124][  0]Cmd: MODE PLACEMENT
+[2014.04.18-04.36.43:177][  0]LogLoad: Full Startup: 5.31 seconds (BP compile: 0.06 seconds)
+[2014.04.18-04.36.43:384][  0]LogRenderer:Warning: Reallocating scene render targets to support 1104x944.
+[2014.04.18-04.36.43:648][  1]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>EF8AC1D61D359935</RequestId><HostId>RAe7hTOnsBI0/6K42UFSzT/MvRRyv/0MSaTaKheOWupdbXjlceh211907eFwVmUa</HostId></Error>
+[2014.04.18-04.36.43:698][  1]LogAssetRegistry: Asset discovery search completed in 1.864072 seconds
+[2014.04.18-04.36.43:711][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>9156D104EC7E3BB3</RequestId><HostId>zyd5FrMeZvGQDUtJasdlxBuWgYL89FJQ5KGz67H39CQ89qO8wBhvhnekB0N694t0</HostId></Error>
+[2014.04.18-04.36.43:806][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>6A8A0544AC498BB5</RequestId><HostId>fhiAZans17Wl3UyGM+MrguhD+qK8w5Ii/QG2QVwHFJ/cgM2jfuy1h/dPfskeqAAy</HostId></Error>
+[2014.04.18-04.37.22:991][517]LogSourceControl: Attempting 'svn info https://github.com/eternalst0rm/NewTestThing --non-interactive --trust-server-cert --username eternalst0rm --password ********'
+[2014.04.18-04.37.25:422][546]SourceControl: Info Path: NewTestThing
+[2014.04.18-04.37.25:422][546]SourceControl: Info URL: https://github.com/eternalst0rm/NewTestThing
+[2014.04.18-04.37.25:422][546]SourceControl: Info Relative URL: ^/
+[2014.04.18-04.37.25:422][546]SourceControl: Info Repository Root: https://github.com/eternalst0rm/NewTestThing
+[2014.04.18-04.37.25:422][546]SourceControl: Info Repository UUID: b7aad797-ddc2-b4a7-8c9f-ce57b7db7bff
+[2014.04.18-04.37.25:423][546]SourceControl: Info Revision: 2
+[2014.04.18-04.37.25:423][546]SourceControl: Info Node Kind: directory
+[2014.04.18-04.37.25:423][546]SourceControl: Info Last Changed Author: eternalst0rm
+[2014.04.18-04.37.25:423][546]SourceControl: Info Last Changed Rev: 2
+[2014.04.18-04.37.25:423][546]SourceControl: Info Last Changed Date: 2014-04-17 23:06:43 -0500 (Thu, 17 Apr 2014)
+[2014.04.18-04.37.55:689][ 16]LogEditorBuildUtils:Warning: A changelist description must be provided; automated build aborted.
+[2014.04.18-04.37.55:690][ 16]BuildAndSubmitErrors: New page: Build and Submit
+[2014.04.18-04.37.55:690][ 16]BuildAndSubmitErrors:Error: Error A changelist description must be provided; automated build aborted.
+[2014.04.18-04.38.33:021][483]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Content/Maps/Example_Map.umap" --non-interactive --trust-server-cert --username eternalst0rm --password ********'
+[2014.04.18-04.38.33:121][483]SourceControl: Info svn: warning: W155007: 'C:\Users\Bren-Gaming\Documents\Unreal Projects\SVNTest\Content\Maps\Example_Map.umap' is not a working copy
+[2014.04.18-04.38.33:302][483]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Content/Maps/Example_Map.umap" --non-interactive --trust-server-cert --username eternalst0rm --password ********'
+[2014.04.18-04.38.33:367][483]SourceControl: Info svn: warning: W155007: 'C:\Users\Bren-Gaming\Documents\Unreal Projects\SVNTest\Content\Maps\Example_Map.umap' is not a working copy
+[2014.04.18-04.38.33:520][483]MapCheck: New page: Map Check
+[2014.04.18-04.38.33:686][483]Cmd: MAP REBUILD ALLVISIBLE
+[2014.04.18-04.38.33:686][483]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.04.18-04.38.34:037][483]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.18-04.38.34:038][483]LightingResults: New page: Lighting Build - Apr 17, 2014, 6:38:34 PM
+[2014.04.18-04.38.47:436][483]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.04.18-04.38.47:436][483]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.04.18-04.38.47:436][483]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.04.18-04.38.47:436][483]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.04.18-04.38.47:436][483]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.04.18-04.38.48:185][483]LogEditorBuildUtils: Build time 0:00:14
+[2014.04.18-04.38.48:759][483]LogSavePackage: Save=485.668488ms
+[2014.04.18-04.38.48:759][483]LogSavePackage: Moving '../../../../../../Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Saved//Example_Map780725204F17E501F921EB870F0A1802.tmp' to '../../../../../../Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Content/Maps/Example_Map.umap'
+[2014.04.18-04.38.48:830][483]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Content/Maps/Example_Map.umap" --non-interactive --trust-server-cert --username eternalst0rm --password ********'
+[2014.04.18-04.38.48:887][483]SourceControl: Info svn: warning: W155007: 'C:\Users\Bren-Gaming\Documents\Unreal Projects\SVNTest\Content\Maps\Example_Map.umap' is not a working copy
+[2014.04.18-04.38.49:069][483]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Content/Maps/Example_Map.umap" --non-interactive --trust-server-cert --username eternalst0rm --password ********'
+[2014.04.18-04.38.49:136][483]SourceControl: Info svn: warning: W155007: 'C:\Users\Bren-Gaming\Documents\Unreal Projects\SVNTest\Content\Maps\Example_Map.umap' is not a working copy
+[2014.04.18-04.38.49:319][483]LogSourceControl: Attempting 'svn add --force --parents "C:/Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Content/Maps/Example_Map.umap" --non-interactive --trust-server-cert --username eternalst0rm --password ********'
+[2014.04.18-04.38.49:413][483]LogSourceControl: Attempting 'svn status --verbose --xml "C:/Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Content/Maps/Example_Map.umap" --non-interactive --trust-server-cert --username eternalst0rm --password ********'
+[2014.04.18-04.38.49:463][483]SourceControl:Error: Error svn: E155007: 'C:\Users\Bren-Gaming\Documents\Unreal Projects\SVNTest\Content\Maps' is not a working copy
+[2014.04.18-04.38.49:463][483]SourceControl:Error: Error svn: warning: W155007: 'C:\Users\Bren-Gaming\Documents\Unreal Projects\SVNTest\Content\Maps\Example_Map.umap' is not a working copy
+[2014.04.18-04.38.49:648][483]LogSourceControl: Attempting 'svn status --verbose --show-updates --xml "C:/Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Content/Maps" --non-interactive --trust-server-cert --username eternalst0rm --password ********'
+[2014.04.18-04.38.49:713][483]LogSourceControl: Attempting 'svn commit --file "../../../../../../Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Saved/Logs//SVN-TempA591492C472388D7CF8E438BA68E0DF9.txt" --targets "../../../../../../Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Saved/Logs//SVN-Temp9FAFCEAB4BC1C527A8C0DEACE9FED1F7.txt" --non-interactive --trust-server-cert --username eternalst0rm --password ********'
+[2014.04.18-04.38.49:764][483]LogSourceControl: Attempting 'svn status --verbose --show-updates --xml "C:/Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Content/Maps/Example_Map.umap" --non-interactive --trust-server-cert --username eternalst0rm --password ********'
+[2014.04.18-04.38.49:821][483]SourceControl:Error: Error svn: E155007: 'C:\Users\Bren-Gaming\Documents\Unreal Projects\SVNTest\Content\Maps\Example_Map.umap' is not a working copy
+[2014.04.18-04.38.49:821][483]SourceControl:Error: Error svn: warning: W155007: 'C:\Users\Bren-Gaming\Documents\Unreal Projects\SVNTest\Content\Maps\Example_Map.umap' is not a working copy
+[2014.04.18-04.39.05:420][629]Job is a success!
+[2014.04.18-04.39.06:634][630]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.04.18-04.39.06:634][630]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.04.18-04.39.06:634][630]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.04.18-04.39.06:634][630]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.04.18-04.39.06:793][630]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.04.18-04.39.06:794][630]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.04.18-04.39.18:437][630]Lightmass on BREN-GAMING-PC: 13.1 sec total, 7.95 sec importing, 0 ms setup, 773 ms photons, 4.40 sec processing, 0 ms extra exporting [25/25 mappings]. Threads: 39.3 sec total, 13.4 sec processing.
+[2014.04.18-04.39.18:491][630]LogStaticLightingSystem:Warning: Illumination: 44.1 sec (599 ms encoding lightmaps)
+[2014.04.18-04.39.18:491][630]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (0.0 MB streaming, 1.3 MB non-streaming), 4 textures
+[2014.04.18-04.39.18:491][630]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.04.18-04.39.19:303][631]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.04.18-04.39.19:303][631]MapCheck: New page: Example_Map - Apr 17, 2014, 6:39:19 PM
+[2014.04.18-04.39.19:453][631]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [150.19ms] ==========
+[2014.04.18-04.42.22:475][626]LogSourceControl: Attempting 'svn status --show-updates --verbose --xml "C:/Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Content/Maps/Example_Map.umap" --non-interactive --trust-server-cert --username eternalst0rm --password ********'
+[2014.04.18-04.42.22:540][626]SourceControl: Info svn: warning: W155007: 'C:\Users\Bren-Gaming\Documents\Unreal Projects\SVNTest\Content\Maps\Example_Map.umap' is not a working copy
+[2014.04.18-04.42.26:467][626]LogSavePackage: Save=3628.706055ms
+[2014.04.18-04.42.26:467][626]LogSavePackage: Moving '../../../../../../Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Saved//Example_Map185840A94D57291E9FA069A142E7DFC5.tmp' to '../../../../../../Users/Bren-Gaming/Documents/Unreal Projects/SVNTest/Content/Maps/Example_Map.umap'
+[2014.04.18-04.42.26:579][626]LogFileHelpers: Saving map 'Example_Map' took 3.898
+[2014.04.18-04.42.27:008][627]Cmd: QUIT_EDITOR
+[2014.04.18-04.42.27:050][627]LogExit: Preparing to exit.
+[2014.04.18-04.42.28:152][627]LogExit: Editor shut down
+[2014.04.18-04.42.28:152][627]LogExit: Transaction tracking system shut down
+[2014.04.18-04.42.28:152][627]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001930AB60
+[2014.04.18-04.42.28:171][627]LogExit: Object subsystem successfully closed.
+[2014.04.18-04.42.28:173][627]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2861) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2014.04.18-04.42.28:205][627]LogModuleManager: Shutting down and abandoning module HTTP (148)
+[2014.04.18-04.42.28:206][627]LogModuleManager: Shutting down and abandoning module CrashTracker (147)
+[2014.04.18-04.42.28:206][627]LogModuleManager: Shutting down and abandoning module SceneOutliner (146)
+[2014.04.18-04.42.28:206][627]LogModuleManager: Shutting down and abandoning module EditorWidgets (145)
+[2014.04.18-04.42.28:206][627]LogModuleManager: Shutting down and abandoning module CollectionManager (144)
+[2014.04.18-04.42.28:206][627]LogModuleManager: Shutting down and abandoning module StatsViewer (143)
+[2014.04.18-04.42.28:206][627]LogModuleManager: Shutting down and abandoning module FoliageEdit (142)
+[2014.04.18-04.42.28:206][627]LogModuleManager: Shutting down and abandoning module LandscapeEditor (141)
+[2014.04.18-04.42.28:209][627]LogModuleManager: Shutting down and abandoning module MeshPaint (140)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module GeometryMode (139)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module TextureAlignMode (138)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module BspMode (137)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module PlacementMode (136)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module AutomationWorker (135)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module ViewportSnapping (134)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (133)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module UserFeedback (132)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module XmlParser (131)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (130)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module Blutility (129)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (126)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (125)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (124)
+[2014.04.18-04.42.28:210][627]LogModuleManager: Shutting down and abandoning module InputBindingEditor (123)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (122)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module SettingsEditor (121)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module SessionLauncher (120)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module SessionFrontend (119)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module ProfilerClient (118)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (117)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module DeviceManager (116)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module AutomationController (115)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module AutomationWindow (114)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module Layers (113)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (112)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module DetailCustomizations (111)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module PreferencesEditor (110)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module PackagesDialog (109)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2014.04.18-04.42.28:211][627]LogModuleManager: Shutting down and abandoning module AssetRegistry (107)
+[2014.04.18-04.42.28:215][627]LogModuleManager: Shutting down and abandoning module Persona (106)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module GraphEditor (105)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module ContentBrowser (104)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module ClassViewer (103)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module Toolbox (102)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module ModuleUI (101)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module Sequencer (100)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module AssetTools (99)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module MovieSceneTools (98)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module OutputLog (97)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module GammaUI (96)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module Documentation (95)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module AnalyticsET (94)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module Analytics (93)
+[2014.04.18-04.42.28:216][627]LogModuleManager: Shutting down and abandoning module ProfilerService (92)
+[2014.04.18-04.42.28:392][627]LogModuleManager: Shutting down and abandoning module TaskGraph (91)
+[2014.04.18-04.42.28:392][627]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (90)
+[2014.04.18-04.42.28:392][627]LogModuleManager: Shutting down and abandoning module Matinee (89)
+[2014.04.18-04.42.28:392][627]LogModuleManager: Shutting down and abandoning module Kismet (88)
+[2014.04.18-04.42.28:392][627]LogModuleManager: Shutting down and abandoning module LevelEditor (87)
+[2014.04.18-04.42.28:393][627]LogModuleManager: Shutting down and abandoning module MainFrame (86)
+[2014.04.18-04.42.28:393][627]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2014.04.18-04.42.28:393][627]LogModuleManager: Shutting down and abandoning module ImageWrapper (84)
+[2014.04.18-04.42.28:393][627]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2014.04.18-04.42.28:393][627]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2014.04.18-04.42.28:393][627]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (81)
+[2014.04.18-04.42.28:393][627]LogModuleManager: Shutting down and abandoning module MessageLog (80)
+[2014.04.18-04.42.28:393][627]LogModuleManager: Shutting down and abandoning module Slate (79)
+[2014.04.18-04.42.28:393][627]LogModuleManager: Shutting down and abandoning module EditorStyle (78)
+[2014.04.18-04.42.28:394][627]LogModuleManager: Shutting down and abandoning module SessionServices (77)
+[2014.04.18-04.42.28:394][627]LogModuleManager: Shutting down and abandoning module Messaging (76)
+[2014.04.18-04.42.28:394][627]LogModuleManager: Shutting down and abandoning module VSAccessor (75)
+[2014.04.18-04.42.28:394][627]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (74)
+[2014.04.18-04.42.28:394][627]LogModuleManager: Shutting down and abandoning module XAudio2 (73)
+[2014.04.18-04.42.28:394][627]LogModuleManager: Shutting down and abandoning module Networking (72)
+[2014.04.18-04.42.28:394][627]LogModuleManager: Shutting down and abandoning module Core (71)
+[2014.04.18-04.42.28:394][627]LogModuleManager: Shutting down and abandoning module KismetCompiler (70)
+[2014.04.18-04.42.28:394][627]LogModuleManager: Shutting down and abandoning module PhysXFormats (69)
+[2014.04.18-04.42.28:394][627]LogModuleManager: Shutting down and abandoning module MeshUtilities (68)
+[2014.04.18-04.42.28:394][627]LogModuleManager: Shutting down and abandoning module DerivedDataCache (67)
+[2014.04.18-04.42.28:443][627]LogDerivedDataCache: Shutdown
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (66)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (65)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (64)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (63)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (62)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (61)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (60)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (59)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (58)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (57)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (56)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (55)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (54)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (53)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module PropertyEditor (52)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (51)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (50)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (49)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module TargetPlatform (48)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module InputCore (46)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module Settings (45)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module TextureCompressor (42)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module ShaderCore (41)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module OpenGLDrv (40)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module D3D11RHI (39)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (38)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module Renderer (37)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module Engine (36)
+[2014.04.18-04.42.28:443][627]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (35)
+[2014.04.18-04.42.28:444][627]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (30)
+[2014.04.18-04.42.28:445][627]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (29)
+[2014.04.18-04.42.28:445][627]LogModuleManager: Shutting down and abandoning module CableComponent (28)
+[2014.04.18-04.42.28:445][627]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2014.04.18-04.42.28:445][627]LogModuleManager: Shutting down and abandoning module UdpMessaging (24)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module MessagingDebugger (23)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module PluginsEditor (12)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module IntroTutorials (11)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module EpicSurvey (10)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.04.18-04.42.28:545][627]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.04.18-04.42.28:545][627]LogExit: Exiting.
+[2014.04.18-04.42.28:550][627]Log file closed, 04/17/14 23:42:28
