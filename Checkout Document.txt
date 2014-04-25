@@ -14,3 +14,4 @@ Bren_upload_couch_Main
 Bren_upload_couch_pillows
 Bren_add_1.2.4 (started on interior)
 Tom_add_1.2.5 (imported shelving applied material to exterior and stairs)
+Bren_Add_1.2.6 (Started on second map base floorplan done except 3rd floor will work on that abit later.)
